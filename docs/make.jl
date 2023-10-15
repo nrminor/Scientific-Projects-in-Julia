@@ -1,7 +1,9 @@
 using SciTemplate
 using Documenter
 
-DocMeta.setdocmeta!(SciTemplate, :DocTestSetup, :(using SciTemplate); recursive=true)
+DocMeta.setdocmeta!(
+    SciTemplate, :DocTestSetup, :(using SciTemplate); recursive=true
+)
 
 makedocs(;
     modules=[SciTemplate],
@@ -14,12 +16,7 @@ makedocs(;
         edit_link="main",
         assets=String[],
     ),
-    pages=[
-        "Home" => "index.md",
-    ],
+    pages=["Home" => "index.md"],
 )
 
-deploydocs(;
-    repo="github.com/nrminor/SciTemplate.jl",
-    devbranch="main",
-)
+deploydocs(; repo="github.com/nrminor/SciTemplate.jl", devbranch="main")
