@@ -1,9 +1,9 @@
 # Set Up Scientific Project in Julia
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://nrminor.github.io/SciTemplate.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nrminor.github.io/SciTemplate.jl/dev/)
-[![Build Status](https://github.com/nrminor/SciTemplate.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/nrminor/SciTemplate.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/nrminor/SciTemplate.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/nrminor/SciTemplate.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://nrminor.github.io/Scientific-Projects-in-Julia/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nrminor.github.io/Scientific-Projects-in-Julia/dev/)
+[![Build Status](https://github.com/nrminor/Scientific-Projects-in-Julia/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/nrminor/Scientific-Projects-in-Julia/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/nrminor/Scientific-Projects-in-Julia/branch/main/graph/badge.svg)](https://codecov.io/gh/nrminor/Scientific-Projects-in-Julia)
 
 Julia has one of the best ecosystems in the game for reproducible, scientific computing. Most notably, this includes:
 1. the inimitable [`PkgTemplates.jl`](https://juliaci.github.io/PkgTemplates.jl/stable/) package, which autogenerates docs, a test directory, initiates git, creates a customizable `.gitignore`, and creates pre-specified Github workflows.
