@@ -1,4 +1,4 @@
-# SciTemplate
+# Set Up Scientific Project in Julia
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://nrminor.github.io/SciTemplate.jl/stable/)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://nrminor.github.io/SciTemplate.jl/dev/)

@@ -82,6 +82,7 @@ Pkg.precompile()
 
 # create a standardized data format
 if !(".JuliaFormatter.toml" in readdir(PROJECT_DIR))
+    touch("$PROJECT_NAME/.JuliaFormatter.toml")
     open("$PROJECT_NAME/.JuliaFormatter.toml", "w") do write_file
         println(write_file, "style = \"blue\"")
         println(write_file, "indent = 4")
